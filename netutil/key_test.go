@@ -5,8 +5,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	ic "github.com/libp2p/go-libp2p/core/crypto"
-	pb "github.com/libp2p/go-libp2p/core/crypto/pb"
+	ic "github.com/chiangmaioneluv/go-libp2p/core/crypto"
+	pb "github.com/chiangmaioneluv/go-libp2p/core/crypto/pb"
 )
 
 func TestBogusPublicKeyGeneration(t *testing.T) {
